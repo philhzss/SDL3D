@@ -890,8 +890,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Debug\resources\scripts\main.lua" />
-    <None Include="Debug\resources\scripts\test.lua" />
+    <None Include="..\resources\scripts\main.lua" />
+    <None Include="..\resources\scripts\test.lua" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

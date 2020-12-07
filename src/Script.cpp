@@ -390,6 +390,7 @@ void Script::bindInterface(Game& game)
 		.addFunction("registerKey", &InputManager::registerKey)
 		.addFunction("registerKeys", &InputManager::registerKeys)
 		.addFunction("isKeyPressed", &InputManager::isKeyPressed)
+		.addFunction("getMousePos", &InputManager::getMousePos)
 	.endClass();
 
 

@@ -8,7 +8,11 @@ local entityManager = game:getEntityManager()
 
 local musicButtonPressedLastFrame = false
 
+local lastMousePos = Vec2(-1, -1)
+
 function gameInit()
+	--lastMousePos.x = (lastMousePos.x / game:getSize().x * 2) - 1
+	--lastMousePos.y = (lastMousePos.y / game:getSize().y * 2) - 1
 	test.foo()
 	Utils.logprint("Hello, init from lua!")
 end
@@ -47,6 +51,9 @@ function doControls()
 	
 	local camera = entityManager:getGameCamera()
 	local cameraPhysicsBody = camera:getPhysicsBody()
+
+	
+
 	
 	cameraPhysicsBody:renderDebugShapeWithCoord(resourceManager:findShader("basic"), camera, 0.0)
 
@@ -55,23 +62,23 @@ function doControls()
 		speed = speed * 10
 	end
 	
-	if(inputManager:isKeyPressed(KeyCode.UP)) then
+	if(inputManager:isKeyPressed(KeyCode.w)) then
 		local cameraDirection = camera:getDirection()
 		
 		 -- Normalize to guarantee that it is the same everywhere
 		local velocity = Vec3.scalarMul(Vec3.normalize(Vec3(cameraDirection.x, 0, cameraDirection.z)), speed)
 		cameraPhysicsBody:setVelocity(velocity)
-	elseif(inputManager:isKeyPressed(KeyCode.DOWN)) then
+	elseif(inputManager:isKeyPressed(KeyCode.s)) then
 		local cameraDirection = camera:getDirection()
 	
 		local velocity = Vec3.scalarMul(Vec3.normalize(Vec3(-cameraDirection.x, 0, -cameraDirection.z)), speed)
 		cameraPhysicsBody:setVelocity(velocity)
 	end
 	
-	if(inputManager:isKeyPressed(KeyCode.LEFT) or inputManager:isKeyPressed(KeyCode.RIGHT)) then
+	if(inputManager:isKeyPressed(KeyCode.a) or inputManager:isKeyPressed(KeyCode.d)) then
 		local sidewaysVelocityAngle = 1.5708
 		
-		if(inputManager:isKeyPressed(KeyCode.LEFT)) then
+		if(inputManager:isKeyPressed(KeyCode.a)) then
 			sidewaysVelocityAngle = -sidewaysVelocityAngle
 		end
 		
@@ -96,8 +103,68 @@ function doControls()
 		cameraPhysicsBody:setVelocity(newVelocity)
 	end
 	
+
 	-- View controls
-	if(inputManager:isKeyPressed(KeyCode.w)) then
+	local currentMousePos = inputManager:getMousePos()
+	
+	currentMousePos.x = (currentMousePos.x / game:getSize().x * 2) - 1
+	currentMousePos.y = (currentMousePos.y / game:getSize().y * 2) - 1
+	--Utils.logprint("LUA: lastMousePos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
+  	--Utils.logprint("LUA: getMousePos: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
+
+	if((lastMousePos.x ~= currentMousePos.x) or (lastMousePos.y ~= currentMousePos.y)) then
+  		Utils.logprint("LUA: Mouse moved!! : " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
+		Utils.logprint("LUA: Mouse lastPos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
+		
+		local cameraDirection = camera:getDirection() -- Here we make sure we have the latest direction
+
+		-- Calculate the difference between now and what it was
+		local relX = (currentMousePos.x - lastMousePos.x)/angleIncrementation
+		local relY = (currentMousePos.y - lastMousePos.y)/angleIncrementation
+		Utils.logprint("LUA: Mouse change rel x and y: " .. tostring(relX) .. ", " .. tostring(relY))
+
+		
+		--[[
+		-- Base of the triangle
+		local base = math.sqrt((cameraDirection.x * cameraDirection.x) + (cameraDirection.z * cameraDirection.z))
+	
+		local newBase = base * math.cos(-angleIncrementation) - cameraDirection.y * math.sin(-angleIncrementation)
+		local newY = base * math.sin(-angleIncrementation) + cameraDirection.y * math.cos(-angleIncrementation)
+		
+		local ratio = newBase / base
+		
+		camera:setDirection(Vec4(cameraDirection.x * ratio, newY, cameraDirection.z * ratio, 0)) -- 0 for vector
+		
+		
+		local cameraDirection = camera:getDirection()
+		
+		local newX = cameraDirection.x * math.cos(-angleIncrementation) - cameraDirection.z * math.sin(-angleIncrementation)
+		local newZ = cameraDirection.x * math.sin(-angleIncrementation) + cameraDirection.z * math.cos(-angleIncrementation)
+		]]
+		--camera:setDirection(Vec4(relX, relY, 0, 0)) -- 0 for vector
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+	else
+	   --Utils.logprint("LUA: Mouse did not move: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
+	   --Utils.logprint("LUA: Mouse lastPos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
+	end
+	
+	lastMousePos.x = currentMousePos.x
+	lastMousePos.y = currentMousePos.y
+
+
+	if(inputManager:isKeyPressed(KeyCode.UP)) then
 		local cameraDirection = camera:getDirection() -- Here we make sure we have the latest direction
 		
 		-- Base of the triangle
@@ -110,7 +177,7 @@ function doControls()
 		local ratio = newBase / base
 		
 		camera:setDirection(Vec4(cameraDirection.x * ratio, newY, cameraDirection.z * ratio, 0)) -- 0 for vector
-	elseif(inputManager:isKeyPressed(KeyCode.s)) then
+	elseif(inputManager:isKeyPressed(KeyCode.DOWN)) then
 		local cameraDirection = camera:getDirection()
 		
 		-- Base of the triangle
@@ -124,14 +191,14 @@ function doControls()
 		camera:setDirection(Vec4(cameraDirection.x * ratio, newY, cameraDirection.z * ratio, 0)) -- 0 for vector
 	end
 	
-	if(inputManager:isKeyPressed(KeyCode.a)) then
+	if(inputManager:isKeyPressed(KeyCode.LEFT)) then
 		local cameraDirection = camera:getDirection()
 		
 		local newX = cameraDirection.x * math.cos(-angleIncrementation) - cameraDirection.z * math.sin(-angleIncrementation)
 		local newZ = cameraDirection.x * math.sin(-angleIncrementation) + cameraDirection.z * math.cos(-angleIncrementation)
 		
 		camera:setDirection(Vec4(newX, cameraDirection.y, newZ, 0)) -- 0 for vector
-	elseif(inputManager:isKeyPressed(KeyCode.d)) then
+	elseif(inputManager:isKeyPressed(KeyCode.RIGHT)) then
 		local cameraDirection = Vec3.fromVec4(camera:getDirection())
 		
 		local newX = cameraDirection.x * math.cos(angleIncrementation) - cameraDirection.z * math.sin(angleIncrementation)

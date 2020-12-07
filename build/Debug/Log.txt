@@ -1,470 +1,549 @@
 Starting SDL3D v0.1!
 Graphics: 3.3.0 NVIDIA 457.30
 Your system seems to be compatible with the game!
+Mouse pos is -858993460, -858993460
 SDL message (most of the time you can ignore these): XAudio2: SDL was built without XAudio2 support (old DirectX SDK).
 Initialization finished!
 Engine version: 0.1
 Hello, init from lua!
-Mouse was captured and is now: 1915, 622
-Mouse was captured and is now: 1907, 625
-Mouse was captured and is now: 1857, 648
-Mouse was captured and is now: 1850, 652
-Mouse was captured and is now: 1804, 673
-Mouse was captured and is now: 1798, 677
-Mouse was captured and is now: 1757, 697
-Mouse was captured and is now: 1751, 700
-Mouse was captured and is now: 1710, 721
-Mouse was captured and is now: 1664, 744
-Mouse was captured and is now: 1618, 766
-Mouse was captured and is now: 1574, 787
-Mouse was captured and is now: 1531, 806
-Mouse was captured and is now: 1493, 820
-Mouse was captured and is now: 1448, 835
-Mouse was captured and is now: 1412, 846
-Mouse was captured and is now: 1375, 856
-Mouse was captured and is now: 1338, 866
-Mouse was captured and is now: 1292, 877
-Mouse was captured and is now: 1252, 886
-Mouse was captured and is now: 1207, 894
-Mouse was captured and is now: 1164, 901
-Mouse was captured and is now: 1116, 907
-Mouse was captured and is now: 1072, 911
-Mouse was captured and is now: 1023, 916
-Mouse was captured and is now: 978, 920
-Mouse was captured and is now: 935, 925
-Mouse was captured and is now: 890, 928
-Mouse was captured and is now: 848, 930
-Mouse was captured and is now: 804, 931
-Mouse was captured and is now: 765, 931
-Mouse was captured and is now: 726, 931
-Mouse was captured and is now: 691, 931
-Mouse was captured and is now: 654, 930
-Mouse was captured and is now: 620, 930
-Mouse was captured and is now: 589, 929
-Mouse was captured and is now: 559, 928
-Mouse was captured and is now: 529, 926
-Mouse was captured and is now: 506, 925
-Mouse was captured and is now: 481, 923
-Mouse was captured and is now: 459, 921
-Mouse was captured and is now: 433, 919
-Mouse was captured and is now: 411, 918
-Mouse was captured and is now: 387, 916
-Mouse was captured and is now: 366, 915
-Mouse was captured and is now: 343, 913
-Mouse was captured and is now: 323, 912
-Mouse was captured and is now: 298, 911
-Mouse was captured and is now: 279, 910
-Mouse was captured and is now: 261, 910
-Mouse was captured and is now: 248, 910
-Mouse was captured and is now: 247, 910
-Mouse was captured and is now: 237, 910
-Mouse was captured and is now: 236, 910
-Mouse was captured and is now: 229, 910
-Mouse was captured and is now: 228, 910
-Mouse was captured and is now: 225, 910
-Mouse was captured and is now: 227, 910
-Mouse was captured and is now: 233, 909
-Mouse was captured and is now: 243, 907
-Mouse was captured and is now: 257, 905
-Mouse was captured and is now: 275, 902
-Mouse was captured and is now: 297, 899
-Mouse was captured and is now: 323, 896
-Mouse was captured and is now: 352, 893
-Mouse was captured and is now: 385, 892
-Mouse was captured and is now: 426, 892
-Mouse was captured and is now: 463, 892
-Mouse was captured and is now: 505, 892
-Mouse was captured and is now: 544, 894
-Mouse was captured and is now: 581, 895
-Mouse was captured and is now: 617, 896
-Mouse was captured and is now: 655, 897
-Mouse was captured and is now: 693, 898
-Mouse was captured and is now: 727, 898
-Mouse was captured and is now: 766, 899
-Mouse was captured and is now: 799, 899
-Mouse was captured and is now: 836, 899
-Mouse was captured and is now: 866, 899
-Mouse was captured and is now: 898, 899
-Mouse was captured and is now: 928, 899
-Mouse was captured and is now: 962, 899
-Mouse was captured and is now: 987, 899
-Mouse was captured and is now: 1016, 899
-Mouse was captured and is now: 1043, 899
-Mouse was captured and is now: 1075, 898
-Mouse was captured and is now: 1104, 897
-Mouse was captured and is now: 1138, 896
-Mouse was captured and is now: 1170, 893
-Mouse was captured and is now: 1197, 890
-Mouse was captured and is now: 1201, 890
-Mouse was captured and is now: 1230, 886
-Mouse was captured and is now: 1234, 885
-Mouse was captured and is now: 1258, 882
-Mouse was captured and is now: 1261, 881
-Mouse was captured and is now: 1282, 878
-Mouse was captured and is now: 1298, 875
-Mouse was captured and is now: 1305, 874
-Mouse was captured and is now: 1306, 874
-Mouse was captured and is now: 1305, 874
-Mouse was captured and is now: 1298, 875
-Mouse was captured and is now: 1279, 879
-Mouse was captured and is now: 1252, 885
-Mouse was captured and is now: 1211, 892
-Mouse was captured and is now: 1168, 899
-Mouse was captured and is now: 1114, 905
-Mouse was captured and is now: 1068, 909
-Mouse was captured and is now: 1010, 911
-Mouse was captured and is now: 959, 913
-Mouse was captured and is now: 906, 913
-Mouse was captured and is now: 856, 913
-Mouse was captured and is now: 805, 913
-Mouse was captured and is now: 762, 912
-Mouse was captured and is now: 726, 911
-Mouse was captured and is now: 722, 911
-Mouse was captured and is now: 689, 910
-Mouse was captured and is now: 684, 910
-Mouse was captured and is now: 652, 909
-Mouse was captured and is now: 648, 909
-Mouse was captured and is now: 619, 909
-Mouse was captured and is now: 615, 909
-Mouse was captured and is now: 588, 908
-Mouse was captured and is now: 560, 908
-Mouse was captured and is now: 536, 908
-Mouse was captured and is now: 514, 908
-Mouse was captured and is now: 499, 908
-Mouse was captured and is now: 490, 909
-Mouse was captured and is now: 489, 909
-Mouse was captured and is now: 494, 909
-Mouse was captured and is now: 508, 906
-Mouse was captured and is now: 534, 902
-Mouse was captured and is now: 567, 897
-Mouse was captured and is now: 611, 893
-Mouse was captured and is now: 657, 890
-Mouse was captured and is now: 713, 889
-Mouse was captured and is now: 768, 888
-Mouse was captured and is now: 825, 888
-Mouse was captured and is now: 881, 889
-Mouse was captured and is now: 936, 891
-Mouse was captured and is now: 986, 892
-Mouse was captured and is now: 1036, 893
-Mouse was captured and is now: 1085, 894
-Mouse was captured and is now: 1126, 894
-Mouse was captured and is now: 1166, 894
-Mouse was captured and is now: 1199, 892
-Mouse was captured and is now: 1234, 889
-Mouse was captured and is now: 1261, 886
-Mouse was captured and is now: 1283, 883
-Mouse was captured and is now: 1298, 880
-Mouse was captured and is now: 1300, 880
-Mouse was captured and is now: 1311, 877
-Mouse was captured and is now: 1312, 877
-Mouse was captured and is now: 1314, 877
-Mouse was captured and is now: 1313, 877
-Mouse was captured and is now: 1304, 880
-Mouse was captured and is now: 1280, 887
-Mouse was captured and is now: 1240, 897
-Mouse was captured and is now: 1186, 907
-Mouse was captured and is now: 1117, 912
-Mouse was captured and is now: 1029, 916
-Mouse was captured and is now: 952, 917
-Mouse was captured and is now: 866, 918
-Mouse was captured and is now: 791, 916
-Mouse was captured and is now: 780, 916
-Mouse was captured and is now: 710, 914
-Mouse was captured and is now: 700, 913
-Mouse was captured and is now: 629, 910
-Mouse was captured and is now: 615, 909
-Mouse was captured and is now: 546, 906
-Mouse was captured and is now: 476, 901
-Mouse was captured and is now: 408, 896
-Mouse was captured and is now: 351, 893
-Mouse was captured and is now: 307, 892
-Mouse was captured and is now: 274, 892
-Mouse was captured and is now: 257, 892
-Mouse was captured and is now: 254, 892
-Mouse was captured and is now: 256, 892
-Mouse was captured and is now: 265, 892
-Mouse was captured and is now: 280, 891
-Mouse was captured and is now: 303, 889
-Mouse was captured and is now: 310, 889
-Mouse was captured and is now: 346, 888
-Mouse was captured and is now: 389, 887
-Mouse was captured and is now: 436, 887
-Mouse was captured and is now: 492, 888
-Mouse was captured and is now: 552, 889
-Mouse was captured and is now: 613, 891
-Mouse was captured and is now: 669, 893
-Mouse was captured and is now: 677, 894
-Mouse was captured and is now: 731, 897
-Mouse was captured and is now: 738, 897
-Mouse was captured and is now: 787, 901
-Mouse was captured and is now: 795, 901
-Mouse was captured and is now: 843, 905
-Mouse was captured and is now: 896, 908
-Mouse was captured and is now: 941, 911
-Mouse was captured and is now: 981, 913
-Mouse was captured and is now: 1014, 915
-Mouse was captured and is now: 1018, 915
-Mouse was captured and is now: 1050, 917
-Mouse was captured and is now: 1078, 918
-Mouse was captured and is now: 1097, 918
-Mouse was captured and is now: 1104, 918
-Mouse was captured and is now: 1126, 918
-Mouse was captured and is now: 1148, 917
-Mouse was captured and is now: 1169, 916
-Mouse was captured and is now: 1189, 914
-Mouse was captured and is now: 1212, 910
-Mouse was captured and is now: 1234, 907
-Mouse was captured and is now: 1262, 903
-Mouse was captured and is now: 1287, 899
-Mouse was captured and is now: 1316, 893
-Mouse was captured and is now: 1345, 889
-Mouse was captured and is now: 1374, 885
-Mouse was captured and is now: 1403, 882
-Mouse was captured and is now: 1434, 878
-Mouse was captured and is now: 1464, 874
-Mouse was captured and is now: 1482, 872
-Mouse was captured and is now: 1490, 870
-Mouse was captured and is now: 1514, 866
-Mouse was captured and is now: 1532, 862
-Mouse was captured and is now: 1547, 858
-Mouse was captured and is now: 1556, 854
-Mouse was captured and is now: 1562, 850
-Mouse was captured and is now: 1566, 846
-Mouse was captured and is now: 1569, 840
-Mouse was captured and is now: 1571, 834
-Mouse was captured and is now: 1573, 827
-Mouse was captured and is now: 1574, 818
-Mouse was captured and is now: 1572, 809
-Mouse was captured and is now: 1569, 799
-Mouse was captured and is now: 1565, 791
-Mouse was captured and is now: 1560, 782
-Mouse was captured and is now: 1556, 774
-Mouse was captured and is now: 1549, 765
-Mouse was captured and is now: 1541, 755
-Mouse was captured and is now: 1528, 745
-Mouse was captured and is now: 1516, 739
-Mouse was captured and is now: 1514, 738
-Mouse was captured and is now: 1499, 734
-Mouse was captured and is now: 1497, 733
-Mouse was captured and is now: 1478, 730
-Mouse was captured and is now: 1475, 730
-Mouse was captured and is now: 1451, 728
-Mouse was captured and is now: 1448, 728
-Mouse was captured and is now: 1418, 728
-Mouse was captured and is now: 1414, 728
-Mouse was captured and is now: 1379, 729
-Mouse was captured and is now: 1330, 733
-Mouse was captured and is now: 1275, 739
-Mouse was captured and is now: 1220, 747
-Mouse was captured and is now: 1165, 756
-Mouse was captured and is now: 1106, 766
-Mouse was captured and is now: 1048, 776
-Mouse was captured and is now: 988, 786
-Mouse was captured and is now: 932, 795
-Mouse was captured and is now: 871, 804
-Mouse was captured and is now: 820, 811
-Mouse was captured and is now: 762, 816
-Mouse was captured and is now: 710, 817
-Mouse was captured and is now: 658, 814
-Mouse was captured and is now: 606, 808
-Mouse was captured and is now: 556, 798
-Mouse was captured and is now: 518, 787
-Mouse was captured and is now: 486, 774
-Mouse was captured and is now: 463, 760
-Mouse was captured and is now: 442, 739
-Mouse was captured and is now: 425, 711
-Mouse was captured and is now: 413, 684
-Mouse was captured and is now: 411, 680
-Mouse was captured and is now: 402, 648
-Mouse was captured and is now: 400, 643
-Mouse was captured and is now: 395, 609
-Mouse was captured and is now: 394, 604
-Mouse was captured and is now: 393, 564
-Mouse was captured and is now: 398, 519
-Mouse was captured and is now: 409, 475
-Mouse was captured and is now: 423, 441
-Mouse was captured and is now: 441, 408
-Mouse was captured and is now: 466, 372
-Mouse was captured and is now: 490, 345
-Mouse was captured and is now: 518, 320
-Mouse was captured and is now: 546, 299
-Mouse was captured and is now: 577, 280
-Mouse was captured and is now: 606, 264
-Mouse was captured and is now: 645, 245
-Mouse was captured and is now: 680, 230
-Mouse was captured and is now: 714, 217
-Mouse was captured and is now: 755, 202
-Mouse was captured and is now: 794, 191
-Mouse was captured and is now: 842, 179
-Mouse was captured and is now: 887, 171
-Mouse was captured and is now: 936, 163
-Mouse was captured and is now: 982, 158
-Mouse was captured and is now: 1022, 155
-Mouse was captured and is now: 1028, 155
-Mouse was captured and is now: 1066, 155
-Mouse was captured and is now: 1072, 155
-Mouse was captured and is now: 1109, 158
-Mouse was captured and is now: 1115, 159
-Mouse was captured and is now: 1151, 165
-Mouse was captured and is now: 1190, 173
-Mouse was captured and is now: 1226, 182
-Mouse was captured and is now: 1259, 192
-Mouse was captured and is now: 1292, 206
-Mouse was captured and is now: 1325, 224
-Mouse was captured and is now: 1351, 242
-Mouse was captured and is now: 1371, 259
-Mouse was captured and is now: 1392, 278
-Mouse was captured and is now: 1412, 300
-Mouse was captured and is now: 1426, 320
-Mouse was captured and is now: 1439, 344
-Mouse was captured and is now: 1447, 368
-Mouse was captured and is now: 1451, 401
-Mouse was captured and is now: 1452, 434
-Mouse was captured and is now: 1446, 476
-Mouse was captured and is now: 1440, 510
-Mouse was captured and is now: 1433, 544
-Mouse was captured and is now: 1425, 572
-Mouse was captured and is now: 1416, 596
-Mouse was captured and is now: 1415, 599
-Mouse was captured and is now: 1403, 624
-Mouse was captured and is now: 1402, 628
-Mouse was captured and is now: 1387, 654
-Mouse was captured and is now: 1384, 660
-Mouse was captured and is now: 1367, 688
-Mouse was captured and is now: 1365, 692
-Mouse was captured and is now: 1349, 716
-Mouse was captured and is now: 1331, 740
-Mouse was captured and is now: 1311, 762
-Mouse was captured and is now: 1292, 782
-Mouse was captured and is now: 1268, 802
-Mouse was captured and is now: 1241, 820
-Mouse was captured and is now: 1211, 840
-Mouse was captured and is now: 1177, 855
-Mouse was captured and is now: 1133, 869
-Mouse was captured and is now: 1091, 876
-Mouse was captured and is now: 1037, 881
-Mouse was captured and is now: 991, 882
-Mouse was captured and is now: 943, 884
-Mouse was captured and is now: 902, 884
-Mouse was captured and is now: 862, 877
-Mouse was captured and is now: 826, 869
-Mouse was captured and is now: 792, 856
-Mouse was captured and is now: 763, 839
-Mouse was captured and is now: 736, 815
-Mouse was captured and is now: 715, 790
-Mouse was captured and is now: 694, 756
-Mouse was captured and is now: 678, 716
-Mouse was captured and is now: 665, 667
-Mouse was captured and is now: 659, 626
-Mouse was captured and is now: 656, 579
-Mouse was captured and is now: 656, 540
-Mouse was captured and is now: 660, 506
-Mouse was captured and is now: 661, 501
-Mouse was captured and is now: 668, 469
-Mouse was captured and is now: 669, 465
-Mouse was captured and is now: 679, 436
-Mouse was captured and is now: 680, 432
-Mouse was captured and is now: 692, 406
-Mouse was captured and is now: 707, 380
-Mouse was captured and is now: 725, 354
-Mouse was captured and is now: 747, 329
-Mouse was captured and is now: 768, 310
-Mouse was captured and is now: 792, 291
-Mouse was captured and is now: 820, 275
-Mouse was captured and is now: 848, 264
-Mouse was captured and is now: 874, 256
-Mouse was captured and is now: 902, 251
-Mouse was captured and is now: 923, 250
-Mouse was captured and is now: 947, 250
-Mouse was captured and is now: 969, 254
-Mouse was captured and is now: 988, 260
-Mouse was captured and is now: 991, 261
-Mouse was captured and is now: 1012, 270
-Mouse was captured and is now: 1015, 272
-Mouse was captured and is now: 1035, 282
-Mouse was captured and is now: 1038, 284
-Mouse was captured and is now: 1060, 298
-Mouse was captured and is now: 1089, 319
-Mouse was captured and is now: 1118, 342
-Mouse was captured and is now: 1150, 373
-Mouse was captured and is now: 1177, 405
-Mouse was captured and is now: 1202, 444
-Mouse was captured and is now: 1222, 484
-Mouse was captured and is now: 1238, 534
-Mouse was captured and is now: 1245, 577
-Mouse was captured and is now: 1247, 610
-Mouse was captured and is now: 1247, 615
-Mouse was captured and is now: 1246, 644
-Mouse was captured and is now: 1245, 647
-Mouse was captured and is now: 1239, 674
-Mouse was captured and is now: 1238, 678
-Mouse was captured and is now: 1228, 703
-Mouse was captured and is now: 1226, 707
-Mouse was captured and is now: 1209, 735
-Mouse was captured and is now: 1183, 765
-Mouse was captured and is now: 1149, 797
-Mouse was captured and is now: 1101, 828
-Mouse was captured and is now: 1052, 850
-Mouse was captured and is now: 988, 868
-Mouse was captured and is now: 923, 876
-Mouse was captured and is now: 862, 877
-Mouse was captured and is now: 800, 871
-Mouse was captured and is now: 735, 860
-Mouse was captured and is now: 671, 845
-Mouse was captured and is now: 618, 825
-Mouse was captured and is now: 579, 799
-Mouse was captured and is now: 549, 766
-Mouse was captured and is now: 530, 723
-Mouse was captured and is now: 523, 679
-Mouse was captured and is now: 523, 634
-Mouse was captured and is now: 530, 593
-Mouse was captured and is now: 541, 555
-Mouse was captured and is now: 555, 522
-Mouse was captured and is now: 558, 516
-Mouse was captured and is now: 575, 486
-Mouse was captured and is now: 577, 482
-Mouse was captured and is now: 595, 459
-Mouse was captured and is now: 598, 456
-Mouse was captured and is now: 618, 436
-Mouse was captured and is now: 643, 417
-Mouse was captured and is now: 668, 403
-Mouse was captured and is now: 693, 393
-Mouse was captured and is now: 718, 386
-Mouse was captured and is now: 744, 382
-Mouse was captured and is now: 773, 381
-Mouse was captured and is now: 810, 381
-Mouse was captured and is now: 854, 386
-Mouse was captured and is now: 900, 392
-Mouse was captured and is now: 959, 400
-Mouse was captured and is now: 1018, 407
-Mouse was captured and is now: 1089, 414
-Mouse was captured and is now: 1156, 419
-Mouse was captured and is now: 1232, 421
-Mouse was captured and is now: 1308, 420
-Mouse was captured and is now: 1390, 413
-Mouse was captured and is now: 1456, 405
-Mouse was captured and is now: 1522, 395
-Mouse was captured and is now: 1582, 381
-Mouse was captured and is now: 1632, 364
-Mouse was captured and is now: 1675, 344
-Mouse was captured and is now: 1711, 322
-Mouse was captured and is now: 1743, 299
-Mouse was captured and is now: 1771, 276
-Mouse was captured and is now: 1792, 252
-Mouse was captured and is now: 1807, 229
-Mouse was captured and is now: 1820, 206
-Mouse was captured and is now: 1827, 185
-Mouse was captured and is now: 1834, 160
-Mouse was captured and is now: 1836, 139
-Mouse was captured and is now: 1838, 119
-Mouse was captured and is now: 1840, 102
-Mouse was captured and is now: 1844, 84
-Mouse was captured and is now: 1849, 66
-Mouse was captured and is now: 1849, 65
-Mouse was captured and is now: 1854, 51
-Mouse was captured and is now: 1859, 36
-Mouse was captured and is now: 1865, 23
-Mouse was captured and is now: 1873, 12
-Mouse was captured and is now: 1881, 1
-Mouse was captured and is now: 1892, 0
+LUA: Mouse moved!! : 0.92395836114883, -0.62222224473953
+LUA: Mouse lastPos: -1.0, -1.0
+LUA: Mouse change rel x and y: 96.197918057442, 18.888887763023
+LUA: Mouse moved!! : 0.81458336114883, -0.46851852536201
+LUA: Mouse lastPos: 0.92395836114883, -0.62222224473953
+LUA: Mouse change rel x and y: -5.46875, 7.6851859688759
+LUA: Mouse moved!! : 0.71354168653488, -0.34074074029922
+LUA: Mouse lastPos: 0.81458336114883, -0.46851852536201
+LUA: Mouse change rel x and y: -5.0520837306976, 6.3888892531395
+LUA: Mouse moved!! : 0.60000002384186, -0.21851852536201
+LUA: Mouse lastPos: 0.71354168653488, -0.34074074029922
+LUA: Mouse change rel x and y: -5.6770831346512, 6.1111107468605
+LUA: Mouse moved!! : 0.50104165077209, -0.12962962687016
+LUA: Mouse lastPos: 0.60000002384186, -0.21851852536201
+LUA: Mouse change rel x and y: -4.9479186534882, 4.444444924593
+LUA: Mouse moved!! : 0.42812499403954, -0.061111111193895
+LUA: Mouse lastPos: 0.50104165077209, -0.12962962687016
+LUA: Mouse change rel x and y: -3.645832836628, 3.425925783813
+LUA: Mouse moved!! : 0.38645833730698, -0.016666667535901
+LUA: Mouse lastPos: 0.42812499403954, -0.061111111193895
+LUA: Mouse change rel x and y: -2.083332836628, 2.2222221828997
+LUA: Mouse moved!! : 0.37187498807907, -0.0018518518190831
+LUA: Mouse lastPos: 0.38645833730698, -0.016666667535901
+LUA: Mouse change rel x and y: -0.72916746139526, 0.7407407858409
+LUA: Mouse moved!! : 0.37916666269302, -0.0092592593282461
+LUA: Mouse lastPos: 0.37187498807907, -0.0018518518190831
+LUA: Mouse change rel x and y: 0.36458373069763, -0.37037037545815
+LUA: Mouse moved!! : 0.38541665673256, -0.014814814552665
+LUA: Mouse lastPos: 0.37916666269302, -0.0092592593282461
+LUA: Mouse change rel x and y: 0.31249970197678, -0.27777776122093
+LUA: Mouse moved!! : 0.38541665673256, -0.02222222276032
+LUA: Mouse lastPos: 0.38541665673256, -0.014814814552665
+LUA: Mouse change rel x and y: 0.0, -0.37037041038275
+LUA: Mouse moved!! : 0.38749998807907, -0.09814814478159
+LUA: Mouse lastPos: 0.38541665673256, -0.02222222276032
+LUA: Mouse change rel x and y: 0.10416656732559, -3.7962961010635
+LUA: Mouse moved!! : 0.38645833730698, -0.13518518209457
+LUA: Mouse lastPos: 0.38749998807907, -0.09814814478159
+LUA: Mouse change rel x and y: -0.052082538604736, -1.8518518656492
+LUA: Mouse moved!! : 0.37187498807907, -0.17592592537403
+LUA: Mouse lastPos: 0.38645833730698, -0.13518518209457
+LUA: Mouse change rel x and y: -0.72916746139526, -2.0370371639729
+LUA: Mouse moved!! : 0.33333334326744, -0.2129629701376
+LUA: Mouse lastPos: 0.37187498807907, -0.17592592537403
+LUA: Mouse change rel x and y: -1.9270822405815, -1.8518522381783
+LUA: Mouse moved!! : 0.25208333134651, -0.23333333432674
+LUA: Mouse lastPos: 0.33333334326744, -0.2129629701376
+LUA: Mouse change rel x and y: -4.0625005960464, -1.0185182094574
+LUA: Mouse moved!! : 0.16354165971279, -0.20925925672054
+LUA: Mouse lastPos: 0.25208333134651, -0.23333333432674
+LUA: Mouse change rel x and y: -4.427083581686, 1.2037038803101
+LUA: Mouse moved!! : 0.051041666418314, -0.13333334028721
+LUA: Mouse lastPos: 0.16354165971279, -0.20925925672054
+LUA: Mouse change rel x and y: -5.6249996647239, 3.7962958216667
+LUA: Mouse moved!! : -0.058333333581686, -0.014814814552665
+LUA: Mouse lastPos: 0.051041666418314, -0.13333334028721
+LUA: Mouse change rel x and y: -5.46875, 5.9259262867272
+LUA: Mouse moved!! : -0.16041666269302, 0.13518518209457
+LUA: Mouse lastPos: -0.058333333581686, -0.014814814552665
+LUA: Mouse change rel x and y: -5.1041664555669, 7.4999998323619
+LUA: Mouse moved!! : -0.20520833134651, 0.23148147761822
+LUA: Mouse lastPos: -0.16041666269302, 0.13518518209457
+LUA: Mouse change rel x and y: -2.2395834326744, 4.8148147761822
+LUA: Mouse moved!! : -0.21250000596046, 0.27592593431473
+LUA: Mouse lastPos: -0.20520833134651, 0.23148147761822
+LUA: Mouse change rel x and y: -0.36458373069763, 2.2222228348255
+LUA: Mouse moved!! : -0.19791667163372, 0.2907407283783
+LUA: Mouse lastPos: -0.21250000596046, 0.27592593431473
+LUA: Mouse change rel x and y: 0.7291667163372, 0.74073970317841
+LUA: Mouse moved!! : -0.16041666269302, 0.28888890147209
+LUA: Mouse lastPos: -0.19791667163372, 0.2907407283783
+LUA: Mouse change rel x and y: 1.8750004470348, -0.092591345310211
+LUA: Mouse moved!! : -0.095833331346512, 0.25555557012558
+LUA: Mouse lastPos: -0.16041666269302, 0.28888890147209
+LUA: Mouse change rel x and y: 3.2291665673256, -1.6666665673256
+LUA: Mouse moved!! : -0.022916667163372, 0.19444444775581
+LUA: Mouse lastPos: -0.095833331346512, 0.25555557012558
+LUA: Mouse change rel x and y: 3.645833209157, -3.0555561184883
+LUA: Mouse moved!! : 0.038541667163372, 0.13148148357868
+LUA: Mouse lastPos: -0.022916667163372, 0.19444444775581
+LUA: Mouse change rel x and y: 3.0729167163372, -3.1481482088566
+LUA: Mouse moved!! : 0.087499998509884, 0.061111111193895
+LUA: Mouse lastPos: 0.038541667163372, 0.13148148357868
+LUA: Mouse change rel x and y: 2.4479165673256, -3.5185186192393
+LUA: Mouse moved!! : 0.11145833134651, 0.0
+LUA: Mouse lastPos: 0.087499998509884, 0.061111111193895
+LUA: Mouse change rel x and y: 1.1979166418314, -3.0555555596948
+LUA: Mouse moved!! : 0.11458333581686, -0.059259258210659
+LUA: Mouse lastPos: 0.11145833134651, 0.0
+LUA: Mouse change rel x and y: 0.15625022351742, -2.962962910533
+LUA: Mouse moved!! : 0.097916670143604, -0.10185185074806
+LUA: Mouse lastPos: 0.11458333581686, -0.059259258210659
+LUA: Mouse change rel x and y: -0.8333332836628, -2.1296296268702
+LUA: Mouse moved!! : 0.064583331346512, -0.12222222238779
+LUA: Mouse lastPos: 0.097916670143604, -0.10185185074806
+LUA: Mouse change rel x and y: -1.6666669398546, -1.0185185819864
+LUA: Mouse moved!! : 0.025000000372529, -0.11666666716337
+LUA: Mouse lastPos: 0.064583331346512, -0.12222222238779
+LUA: Mouse change rel x and y: -1.9791665486991, 0.27777776122093
+LUA: Mouse moved!! : -0.030208332464099, -0.074074074625969
+LUA: Mouse lastPos: 0.025000000372529, -0.11666666716337
+LUA: Mouse change rel x and y: -2.7604166418314, 2.1296296268702
+LUA: Mouse moved!! : -0.086458332836628, 0.0092592593282461
+LUA: Mouse lastPos: -0.030208332464099, -0.074074074625969
+LUA: Mouse change rel x and y: -2.8125000186265, 4.1666666977108
+LUA: Mouse moved!! : -0.14374999701977, 0.12962962687016
+LUA: Mouse lastPos: -0.086458332836628, 0.0092592593282461
+LUA: Mouse change rel x and y: -2.864583209157, 6.0185183770955
+LUA: Mouse moved!! : -0.17395833134651, 0.22037036716938
+LUA: Mouse lastPos: -0.14374999701977, 0.12962962687016
+LUA: Mouse change rel x and y: -1.5104167163372, 4.5370370149612
+LUA: Mouse moved!! : -0.17708332836628, 0.25370371341705
+LUA: Mouse lastPos: -0.17395833134651, 0.22037036716938
+LUA: Mouse change rel x and y: -0.15624985098839, 1.6666673123837
+LUA: Mouse moved!! : -0.16041666269302, 0.25555557012558
+LUA: Mouse lastPos: -0.17708332836628, 0.25370371341705
+LUA: Mouse change rel x and y: 0.8333332836628, 0.092592835426331
+LUA: Mouse moved!! : -0.11770833283663, 0.24259258806705
+LUA: Mouse lastPos: -0.16041666269302, 0.25555557012558
+LUA: Mouse change rel x and y: 2.1354164928198, -0.64814910292625
+LUA: Mouse moved!! : -0.059374999254942, 0.20740740001202
+LUA: Mouse lastPos: -0.11770833283663, 0.24259258806705
+LUA: Mouse change rel x and y: 2.9166666790843, -1.7592594027519
+LUA: Mouse moved!! : 0.011458333581686, 0.15370370447636
+LUA: Mouse lastPos: -0.059374999254942, 0.20740740001202
+LUA: Mouse change rel x and y: 3.5416666418314, -2.685184776783
+LUA: Mouse moved!! : 0.064583331346512, 0.10740740597248
+LUA: Mouse lastPos: 0.011458333581686, 0.15370370447636
+LUA: Mouse change rel x and y: 2.6562498882413, -2.3148149251938
+LUA: Mouse moved!! : 0.10729166865349, 0.062962964177132
+LUA: Mouse lastPos: 0.064583331346512, 0.10740740597248
+LUA: Mouse change rel x and y: 2.1354168653488, -2.2222220897675
+LUA: Mouse moved!! : 0.13124999403954, 0.02962962910533
+LUA: Mouse lastPos: 0.10729166865349, 0.062962964177132
+LUA: Mouse change rel x and y: 1.1979162693024, -1.6666667535901
+LUA: Mouse moved!! : 0.14479166269302, 0.0
+LUA: Mouse lastPos: 0.13124999403954, 0.02962962910533
+LUA: Mouse change rel x and y: 0.67708343267441, -1.4814814552665
+LUA: Mouse moved!! : 0.15000000596046, -0.014814814552665
+LUA: Mouse lastPos: 0.14479166269302, 0.0
+LUA: Mouse change rel x and y: 0.26041716337204, -0.74074072763324
+LUA: Mouse moved!! : 0.15000000596046, -0.018518518656492
+LUA: Mouse lastPos: 0.15000000596046, -0.014814814552665
+LUA: Mouse change rel x and y: 0.0, -0.18518520519137
+LUA: Mouse moved!! : 0.14791665971279, -0.014814814552665
+LUA: Mouse lastPos: 0.15000000596046, -0.018518518656492
+LUA: Mouse change rel x and y: -0.10416731238365, 0.18518520519137
+LUA: Mouse moved!! : 0.13333334028721, -0.0055555556900799
+LUA: Mouse lastPos: 0.14791665971279, -0.014814814552665
+LUA: Mouse change rel x and y: -0.72916597127914, 0.46296294312924
+LUA: Mouse moved!! : 0.11041666567326, 0.012962962500751
+LUA: Mouse lastPos: 0.13333334028721, -0.0055555556900799
+LUA: Mouse change rel x and y: -1.1458337306976, 0.92592590954155
+LUA: Mouse moved!! : 0.087499998509884, 0.02962962910533
+LUA: Mouse lastPos: 0.11041666567326, 0.012962962500751
+LUA: Mouse change rel x and y: -1.1458333581686, 0.83333333022892
+LUA: Mouse moved!! : 0.059374999254942, 0.051851850003004
+LUA: Mouse lastPos: 0.087499998509884, 0.02962962910533
+LUA: Mouse change rel x and y: -1.4062499627471, 1.1111110448837
+LUA: Mouse moved!! : 0.038541667163372, 0.06851851940155
+LUA: Mouse lastPos: 0.059374999254942, 0.051851850003004
+LUA: Mouse change rel x and y: -1.0416666045785, 0.83333346992731
+LUA: Mouse moved!! : 0.027083333581686, 0.077777780592442
+LUA: Mouse lastPos: 0.038541667163372, 0.06851851940155
+LUA: Mouse change rel x and y: -0.5729166790843, 0.46296305954456
+LUA: Mouse moved!! : 0.026041666045785, 0.079629629850388
+LUA: Mouse lastPos: 0.027083333581686, 0.077777780592442
+LUA: Mouse change rel x and y: -0.052083376795053, 0.092592462897301
+LUA: Mouse moved!! : 0.028124999254942, 0.079629629850388
+LUA: Mouse lastPos: 0.026041666045785, 0.079629629850388
+LUA: Mouse change rel x and y: 0.10416666045785, 0.0
+LUA: Mouse moved!! : 0.03125, 0.075925923883915
+LUA: Mouse lastPos: 0.028124999254942, 0.079629629850388
+LUA: Mouse change rel x and y: 0.1562500372529, -0.18518529832363
+LUA: Mouse moved!! : 0.03645833209157, 0.072222225368023
+LUA: Mouse lastPos: 0.03125, 0.075925923883915
+LUA: Mouse change rel x and y: 0.2604166045785, -0.1851849257946
+LUA: Mouse moved!! : 0.04166666790843, 0.06851851940155
+LUA: Mouse lastPos: 0.03645833209157, 0.072222225368023
+LUA: Mouse change rel x and y: 0.26041679084301, -0.18518529832363
+LUA: Mouse moved!! : 0.045833334326744, 0.064814813435078
+LUA: Mouse lastPos: 0.04166666790843, 0.06851851940155
+LUA: Mouse change rel x and y: 0.2083333209157, -0.18518529832363
+LUA: Mouse moved!! : 0.047916665673256, 0.062962964177132
+LUA: Mouse lastPos: 0.045833334326744, 0.064814813435078
+LUA: Mouse change rel x and y: 0.10416656732559, -0.092592462897301
+LUA: Mouse moved!! : 0.042708333581686, 0.066666670143604
+LUA: Mouse lastPos: 0.047916665673256, 0.062962964177132
+LUA: Mouse change rel x and y: -0.2604166045785, 0.18518529832363
+LUA: Mouse moved!! : 0.021874999627471, 0.08333333581686
+LUA: Mouse lastPos: 0.042708333581686, 0.066666670143604
+LUA: Mouse change rel x and y: -1.0416666977108, 0.8333332836628
+LUA: Mouse moved!! : -0.010416666977108, 0.10925926268101
+LUA: Mouse lastPos: 0.021874999627471, 0.08333333581686
+LUA: Mouse change rel x and y: -1.6145833302289, 1.2962963432074
+LUA: Mouse moved!! : -0.045833334326744, 0.1370370388031
+LUA: Mouse lastPos: -0.010416666977108, 0.10925926268101
+LUA: Mouse change rel x and y: -1.7708333674818, 1.3888888061047
+LUA: Mouse moved!! : -0.08333333581686, 0.16666667163372
+LUA: Mouse lastPos: -0.045833334326744, 0.1370370388031
+LUA: Mouse change rel x and y: -1.8750000745058, 1.481481641531
+LUA: Mouse moved!! : -0.11874999850988, 0.19444444775581
+LUA: Mouse lastPos: -0.08333333581686, 0.16666667163372
+LUA: Mouse change rel x and y: -1.7708331346512, 1.3888888061047
+LUA: Mouse moved!! : -0.13854166865349, 0.21111111342907
+LUA: Mouse lastPos: -0.11874999850988, 0.19444444775581
+LUA: Mouse change rel x and y: -0.98958350718021, 0.8333332836628
+LUA: Mouse moved!! : -0.13541667163372, 0.20740740001202
+LUA: Mouse lastPos: -0.13854166865349, 0.21111111342907
+LUA: Mouse change rel x and y: 0.15624985098839, -0.18518567085266
+LUA: Mouse moved!! : -0.1135416701436, 0.17962962388992
+LUA: Mouse lastPos: -0.13541667163372, 0.20740740001202
+LUA: Mouse change rel x and y: 1.0937500745058, -1.3888888061047
+LUA: Mouse moved!! : -0.077083334326744, 0.1370370388031
+LUA: Mouse lastPos: -0.1135416701436, 0.17962962388992
+LUA: Mouse change rel x and y: 1.822916790843, -2.1296292543411
+LUA: Mouse moved!! : -0.038541667163372, 0.094444446265697
+LUA: Mouse lastPos: -0.077083334326744, 0.1370370388031
+LUA: Mouse change rel x and y: 1.9270833581686, -2.1296296268702
+LUA: Mouse moved!! : 0.0052083334885538, 0.050000000745058
+LUA: Mouse lastPos: -0.038541667163372, 0.094444446265697
+LUA: Mouse change rel x and y: 2.1875000325963, -2.222222276032
+LUA: Mouse moved!! : 0.026041666045785, 0.027777777984738
+LUA: Mouse lastPos: 0.0052083334885538, 0.050000000745058
+LUA: Mouse change rel x and y: 1.0416666278616, -1.111111138016
+LUA: Mouse moved!! : 0.028124999254942, 0.025925925001502
+LUA: Mouse lastPos: 0.026041666045785, 0.027777777984738
+LUA: Mouse change rel x and y: 0.10416666045785, -0.092592649161816
+LUA: Mouse moved!! : 0.023958332836628, 0.027777777984738
+LUA: Mouse lastPos: 0.028124999254942, 0.025925925001502
+LUA: Mouse change rel x and y: -0.2083333209157, 0.092592649161816
+LUA: Mouse moved!! : 0.0020833334419876, 0.048148147761822
+LUA: Mouse lastPos: 0.023958332836628, 0.027777777984738
+LUA: Mouse change rel x and y: -1.093749969732, 1.0185184888542
+LUA: Mouse moved!! : -0.03645833209157, 0.087037034332752
+LUA: Mouse lastPos: 0.0020833334419876, 0.048148147761822
+LUA: Mouse change rel x and y: -1.9270832766779, 1.9444443285465
+LUA: Mouse moved!! : -0.087499998509884, 0.14074073731899
+LUA: Mouse lastPos: -0.03645833209157, 0.087037034332752
+LUA: Mouse change rel x and y: -2.5520833209157, 2.685185149312
+LUA: Mouse moved!! : -0.14166666567326, 0.19444444775581
+LUA: Mouse lastPos: -0.087499998509884, 0.14074073731899
+LUA: Mouse change rel x and y: -2.7083333581686, 2.685185521841
+LUA: Mouse moved!! : -0.17395833134651, 0.22407408058643
+LUA: Mouse lastPos: -0.14166666567326, 0.19444444775581
+LUA: Mouse change rel x and y: -1.6145832836628, 1.481481641531
+LUA: Mouse moved!! : -0.17708332836628, 0.2259259223938
+LUA: Mouse lastPos: -0.17395833134651, 0.22407408058643
+LUA: Mouse change rel x and y: -0.15624985098839, 0.092592090368271
+LUA: Mouse moved!! : -0.16770833730698, 0.22037036716938
+LUA: Mouse lastPos: -0.17708332836628, 0.2259259223938
+LUA: Mouse change rel x and y: 0.46874955296516, -0.27777776122093
+LUA: Mouse moved!! : -0.13541667163372, 0.19259259104729
+LUA: Mouse lastPos: -0.16770833730698, 0.22037036716938
+LUA: Mouse change rel x and y: 1.6145832836628, -1.3888888061047
+LUA: Mouse moved!! : -0.082291670143604, 0.15000000596046
+LUA: Mouse lastPos: -0.13541667163372, 0.19259259104729
+LUA: Mouse change rel x and y: 2.6562500745058, -2.1296292543411
+LUA: Mouse moved!! : -0.032291665673256, 0.1129629611969
+LUA: Mouse lastPos: -0.082291670143604, 0.15000000596046
+LUA: Mouse change rel x and y: 2.5000002235174, -1.8518522381783
+LUA: Mouse moved!! : 0.03125, 0.066666670143604
+LUA: Mouse lastPos: -0.032291665673256, 0.1129629611969
+LUA: Mouse change rel x and y: 3.1770832836628, -2.3148145526648
+LUA: Mouse moved!! : 0.078125, 0.02962962910533
+LUA: Mouse lastPos: 0.03125, 0.066666670143604
+LUA: Mouse change rel x and y: 2.34375, -1.8518520519137
+LUA: Mouse moved!! : 0.11770833283663, -0.016666667535901
+LUA: Mouse lastPos: 0.078125, 0.02962962910533
+LUA: Mouse change rel x and y: 1.9791666418314, -2.3148148320615
+LUA: Mouse moved!! : 0.13854166865349, -0.048148147761822
+LUA: Mouse lastPos: 0.11770833283663, -0.016666667535901
+LUA: Mouse change rel x and y: 1.041666790843, -1.574074011296
+LUA: Mouse moved!! : 0.140625, -0.050000000745058
+LUA: Mouse lastPos: 0.13854166865349, -0.048148147761822
+LUA: Mouse change rel x and y: 0.10416656732559, -0.092592649161816
+LUA: Mouse moved!! : 0.14374999701977, -0.05370370298624
+LUA: Mouse lastPos: 0.140625, -0.050000000745058
+LUA: Mouse change rel x and y: 0.15624985098839, -0.18518511205912
+LUA: Mouse moved!! : 0.16458334028721, -0.087037034332752
+LUA: Mouse lastPos: 0.14374999701977, -0.05370370298624
+LUA: Mouse change rel x and y: 1.041667163372, -1.6666665673256
+LUA: Mouse moved!! : 0.19791667163372, -0.14259259402752
+LUA: Mouse lastPos: 0.16458334028721, -0.087037034332752
+LUA: Mouse change rel x and y: 1.6666665673256, -2.7777779847383
+LUA: Mouse moved!! : 0.23020833730698, -0.19074073433876
+LUA: Mouse lastPos: 0.19791667163372, -0.14259259402752
+LUA: Mouse change rel x and y: 1.6145832836628, -2.4074070155621
+LUA: Mouse moved!! : 0.26249998807907, -0.23888888955116
+LUA: Mouse lastPos: 0.23020833730698, -0.19074073433876
+LUA: Mouse change rel x and y: 1.6145825386047, -2.4074077606201
+LUA: Mouse moved!! : 0.28333333134651, -0.26296296715736
+LUA: Mouse lastPos: 0.26249998807907, -0.23888888955116
+LUA: Mouse change rel x and y: 1.041667163372, -1.2037038803101
+LUA: Mouse moved!! : 0.30000001192093, -0.2740740776062
+LUA: Mouse lastPos: 0.28333333134651, -0.26296296715736
+LUA: Mouse change rel x and y: 0.83333402872086, -0.55555552244186
+LUA: Mouse moved!! : 0.31041666865349, -0.27777779102325
+LUA: Mouse lastPos: 0.30000001192093, -0.2740740776062
+LUA: Mouse change rel x and y: 0.52083283662796, -0.18518567085266
+LUA: Mouse moved!! : 0.328125, -0.25740739703178
+LUA: Mouse lastPos: 0.31041666865349, -0.27777779102325
+LUA: Mouse change rel x and y: 0.88541656732559, 1.0185196995735
+LUA: Mouse moved!! : 0.34687501192093, -0.18333333730698
+LUA: Mouse lastPos: 0.328125, -0.25740739703178
+LUA: Mouse change rel x and y: 0.93750059604645, 3.7037029862404
+LUA: Mouse moved!! : 0.35104167461395, -0.031481482088566
+LUA: Mouse lastPos: 0.34687501192093, -0.18333333730698
+LUA: Mouse change rel x and y: 0.20833313465118, 7.5925927609205
+LUA: Mouse moved!! : 0.31458333134651, 0.12407407164574
+LUA: Mouse lastPos: 0.35104167461395, -0.031481482088566
+LUA: Mouse change rel x and y: -1.822917163372, 7.7777776867151
+LUA: Mouse moved!! : 0.23020833730698, 0.24814814329147
+LUA: Mouse lastPos: 0.31458333134651, 0.12407407164574
+LUA: Mouse change rel x and y: -4.2187497019768, 6.2037035822868
+LUA: Mouse moved!! : 0.11041666567326, 0.31851851940155
+LUA: Mouse lastPos: 0.23020833730698, 0.24814814329147
+LUA: Mouse change rel x and y: -5.989583581686, 3.5185188055038
+LUA: Mouse moved!! : -0.056249998509884, 0.33148148655891
+LUA: Mouse lastPos: 0.11041666567326, 0.31851851940155
+LUA: Mouse change rel x and y: -8.333333209157, 0.64814835786819
+LUA: Mouse moved!! : -0.20729166269302, 0.29259258508682
+LUA: Mouse lastPos: -0.056249998509884, 0.33148148655891
+LUA: Mouse change rel x and y: -7.552083209157, -1.9444450736046
+LUA: Mouse moved!! : -0.34166666865349, 0.21851852536201
+LUA: Mouse lastPos: -0.20729166269302, 0.29259258508682
+LUA: Mouse change rel x and y: -6.7187502980232, -3.7037029862404
+LUA: Mouse moved!! : -0.46458333730698, 0.10000000149012
+LUA: Mouse lastPos: -0.34166666865349, 0.21851852536201
+LUA: Mouse change rel x and y: -6.1458334326744, -5.9259261935949
+LUA: Mouse moved!! : -0.53020834922791, -0.020370369777083
+LUA: Mouse lastPos: -0.46458333730698, 0.10000000149012
+LUA: Mouse change rel x and y: -3.2812505960464, -6.01851856336
+LUA: Mouse moved!! : -0.54270833730698, -0.12222222238779
+LUA: Mouse lastPos: -0.53020834922791, -0.020370369777083
+LUA: Mouse change rel x and y: -0.62499940395355, -5.0925926305354
+LUA: Mouse moved!! : -0.51041668653488, -0.18703703582287
+LUA: Mouse lastPos: -0.54270833730698, -0.12222222238779
+LUA: Mouse change rel x and y: 1.6145825386047, -3.2407406717539
+LUA: Mouse moved!! : -0.42291668057442, -0.25370371341705
+LUA: Mouse lastPos: -0.51041668653488, -0.18703703582287
+LUA: Mouse change rel x and y: 4.3750002980232, -3.3333338797092
+LUA: Mouse moved!! : -0.29374998807907, -0.30370369553566
+LUA: Mouse lastPos: -0.42291668057442, -0.25370371341705
+LUA: Mouse change rel x and y: 6.4583346247673, -2.4999991059303
+LUA: Mouse moved!! : -0.12187500298023, -0.34259259700775
+LUA: Mouse lastPos: -0.29374998807907, -0.30370369553566
+LUA: Mouse change rel x and y: 8.5937492549419, -1.9444450736046
+LUA: Mouse moved!! : 0.059374999254942, -0.37407407164574
+LUA: Mouse lastPos: -0.12187500298023, -0.34259259700775
+LUA: Mouse change rel x and y: 9.0625001117587, -1.5740737318993
+LUA: Mouse moved!! : 0.23958332836628, -0.40185186266899
+LUA: Mouse lastPos: 0.059374999254942, -0.37407407164574
+LUA: Mouse change rel x and y: 9.0104164555669, -1.3888895511627
+LUA: Mouse moved!! : 0.41562500596046, -0.43148148059845
+LUA: Mouse lastPos: 0.23958332836628, -0.40185186266899
+LUA: Mouse change rel x and y: 8.8020838797092, -1.4814808964729
+LUA: Mouse moved!! : 0.55520832538605, -0.4518518447876
+LUA: Mouse lastPos: 0.41562500596046, -0.43148148059845
+LUA: Mouse change rel x and y: 6.9791659712791, -1.0185182094574
+LUA: Mouse moved!! : 0.69375002384186, -0.46851852536201
+LUA: Mouse lastPos: 0.55520832538605, -0.4518518447876
+LUA: Mouse change rel x and y: 6.9270849227905, -0.83333402872086
+LUA: Mouse moved!! : 0.80833333730698, -0.48703703284264
+LUA: Mouse lastPos: 0.69375002384186, -0.46851852536201
+LUA: Mouse change rel x and y: 5.7291656732559, -0.92592537403107
+LUA: Mouse moved!! : 0.88749998807907, -0.51111114025116
+LUA: Mouse lastPos: 0.80833333730698, -0.48703703284264
+LUA: Mouse change rel x and y: 3.9583325386047, -1.2037053704262
+LUA: Mouse moved!! : 0.94166666269302, -0.53703701496124
+LUA: Mouse lastPos: 0.88749998807907, -0.51111114025116
+LUA: Mouse change rel x and y: 2.7083337306976, -1.2962937355042
+LUA: Mouse moved!! : 0.98333334922791, -0.57037037611008
+LUA: Mouse lastPos: 0.94166666269302, -0.53703701496124
+LUA: Mouse change rel x and y: 2.0833343267441, -1.6666680574417
+LUA: Mouse moved!! : 0.99895834922791, -0.6537036895752
+LUA: Mouse lastPos: 0.98333334922791, -0.57037037611008
+LUA: Mouse change rel x and y: 0.78125, -4.1666656732559
+LUA: Mouse moved!! : 0.984375, -0.74444442987442
+LUA: Mouse lastPos: 0.99895834922791, -0.6537036895752
+LUA: Mouse change rel x and y: -0.72916746139526, -4.5370370149612
+LUA: Mouse moved!! : 0.96354168653488, -0.7740740776062
+LUA: Mouse lastPos: 0.984375, -0.74444442987442
+LUA: Mouse change rel x and y: -1.0416656732559, -1.4814823865891
+LUA: Mouse moved!! : 0.94791668653488, -0.78888887166977
+LUA: Mouse lastPos: 0.96354168653488, -0.7740740776062
+LUA: Mouse change rel x and y: -0.78125, -0.74073970317841
+LUA: Mouse moved!! : 0.93124997615814, -0.79629629850388
+LUA: Mouse lastPos: 0.94791668653488, -0.78888887166977
+LUA: Mouse change rel x and y: -0.83333551883698, -0.37037134170532
+LUA: Mouse moved!! : 0.90312498807907, -0.80000001192093
+LUA: Mouse lastPos: 0.93124997615814, -0.79629629850388
+LUA: Mouse change rel x and y: -1.4062494039536, -0.18518567085266
+LUA: Mouse moved!! : 0.87916666269302, -0.80185186862946
+LUA: Mouse lastPos: 0.90312498807907, -0.80000001192093
+LUA: Mouse change rel x and y: -1.1979162693024, -0.092592835426331
+LUA: Mouse moved!! : 0.86458331346512, -0.80555558204651
+LUA: Mouse lastPos: 0.87916666269302, -0.80185186862946
+LUA: Mouse change rel x and y: -0.72916746139526, -0.18518567085266
+LUA: Mouse moved!! : 0.86250001192093, -0.80555558204651
+LUA: Mouse lastPos: 0.86458331346512, -0.80555558204651
+LUA: Mouse change rel x and y: -0.10416507720947, 0.0
+LUA: Mouse moved!! : 0.86354166269302, -0.80555558204651
+LUA: Mouse lastPos: 0.86250001192093, -0.80555558204651
+LUA: Mouse change rel x and y: 0.052082538604736, 0.0
+LUA: Mouse moved!! : 0.86874997615814, -0.80740737915039
+LUA: Mouse lastPos: 0.86354166269302, -0.80555558204651
+LUA: Mouse change rel x and y: 0.26041567325592, -0.092589855194092
+LUA: Mouse moved!! : 0.87916666269302, -0.81296294927597
+LUA: Mouse lastPos: 0.86874997615814, -0.80740737915039
+LUA: Mouse change rel x and y: 0.52083432674408, -0.27777850627899
+LUA: Mouse moved!! : 0.88854163885117, -0.8222222328186
+LUA: Mouse lastPos: 0.87916666269302, -0.81296294927597
+LUA: Mouse change rel x and y: 0.4687488079071, -0.46296417713165
+LUA: Mouse moved!! : 0.89583331346512, -0.8388888835907
+LUA: Mouse lastPos: 0.88854163885117, -0.8222222328186
+LUA: Mouse change rel x and y: 0.36458373069763, -0.83333253860474
+LUA: Mouse moved!! : 0.90416663885117, -0.86111110448837
+LUA: Mouse lastPos: 0.89583331346512, -0.8388888835907
+LUA: Mouse change rel x and y: 0.41666626930237, -1.1111110448837
+LUA: Mouse moved!! : 0.91458332538605, -0.88888889551163
+LUA: Mouse lastPos: 0.90416663885117, -0.86111110448837
+LUA: Mouse change rel x and y: 0.52083432674408, -1.3888895511627
+LUA: Mouse moved!! : 0.92395836114883, -0.91481482982635
+LUA: Mouse lastPos: 0.91458332538605, -0.88888889551163
+LUA: Mouse change rel x and y: 0.46875178813934, -1.2962967157364
+LUA: Mouse moved!! : 0.93020832538605, -0.92962962388992
+LUA: Mouse lastPos: 0.92395836114883, -0.91481482982635
+LUA: Mouse change rel x and y: 0.31249821186066, -0.74073970317841
+LUA: Mouse moved!! : 0.93333333730698, -0.93703705072403
+LUA: Mouse lastPos: 0.93020832538605, -0.92962962388992
+LUA: Mouse change rel x and y: 0.15625059604645, -0.37037134170532
+LUA: Mouse moved!! : 0.93437498807907, -0.94074076414108
+LUA: Mouse lastPos: 0.93333333730698, -0.93703705072403
+LUA: Mouse change rel x and y: 0.052082538604736, -0.18518567085266
+LUA: Mouse moved!! : 0.93541663885117, -0.94444441795349
+LUA: Mouse lastPos: 0.93437498807907, -0.94074076414108
+LUA: Mouse change rel x and y: 0.052082538604736, -0.18518269062042
+LUA: Mouse moved!! : 0.93854165077209, -0.9518518447876
+LUA: Mouse lastPos: 0.93541663885117, -0.94444441795349
+LUA: Mouse change rel x and y: 0.15625059604645, -0.37037134170532
+LUA: Mouse moved!! : 0.94687497615814, -0.97037035226822
+LUA: Mouse lastPos: 0.93854165077209, -0.9518518447876
+LUA: Mouse change rel x and y: 0.41666626930237, -0.92592537403107
+LUA: Mouse moved!! : 0.95625001192093, -0.99259257316589
+LUA: Mouse lastPos: 0.94687497615814, -0.97037035226822
+LUA: Mouse change rel x and y: 0.46875178813934, -1.1111110448837
+LUA: Mouse moved!! : 0.96458333730698, -1.0
+LUA: Mouse lastPos: 0.95625001192093, -0.99259257316589
+LUA: Mouse change rel x and y: 0.41666626930237, -0.37037134170532
+LUA: Mouse moved!! : 0.94999998807907, -0.92222219705582
+LUA: Mouse lastPos: 0.96458333730698, -1.0
+LUA: Mouse change rel x and y: -0.72916746139526, 3.8888901472092
+LUA: Mouse moved!! : 0.93020832538605, -0.82777780294418
+LUA: Mouse lastPos: 0.94999998807907, -0.92222219705582
+LUA: Mouse change rel x and y: -0.98958313465118, 4.7222197055817
+LUA: Mouse moved!! : 0.90312498807907, -0.72407406568527
+LUA: Mouse lastPos: 0.93020832538605, -0.82777780294418
+LUA: Mouse change rel x and y: -1.3541668653488, 5.1851868629456
+LUA: Mouse moved!! : 0.87812501192093, -0.64444446563721
+LUA: Mouse lastPos: 0.90312498807907, -0.72407406568527
+LUA: Mouse change rel x and y: -1.2499988079071, 3.9814800024033
+LUA: Mouse moved!! : 0.86562502384186, -0.60185188055038
+LUA: Mouse lastPos: 0.87812501192093, -0.64444446563721
+LUA: Mouse change rel x and y: -0.62499940395355, 2.1296292543411
+LUA: Mouse moved!! : 0.86145836114883, -0.58518517017365
+LUA: Mouse lastPos: 0.86562502384186, -0.60185188055038
+LUA: Mouse change rel x and y: -0.20833313465118, 0.83333551883698
+LUA: Mouse moved!! : 0.86041665077209, -0.57962960004807
+LUA: Mouse lastPos: 0.86145836114883, -0.58518517017365
+LUA: Mouse change rel x and y: -0.052085518836975, 0.27777850627899
+LUA: Mouse moved!! : 0.86041665077209, -0.57777780294418
+LUA: Mouse lastPos: 0.86041665077209, -0.57962960004807
+LUA: Mouse change rel x and y: 0.0, 0.092589855194092
+LUA: Mouse moved!! : 0.86250001192093, -0.59814816713333
+LUA: Mouse lastPos: 0.86041665077209, -0.57777780294418
+LUA: Mouse change rel x and y: 0.10416805744171, -1.0185182094574
+LUA: Mouse moved!! : 0.86770832538605, -0.63518518209457
+LUA: Mouse lastPos: 0.86250001192093, -0.59814816713333
+LUA: Mouse change rel x and y: 0.26041567325592, -1.8518507480621
+LUA: Mouse moved!! : 0.87604165077209, -0.69629627466202
+LUA: Mouse lastPos: 0.86770832538605, -0.63518518209457
+LUA: Mouse change rel x and y: 0.41666626930237, -3.0555546283722
+LUA: Mouse moved!! : 0.88437497615814, -0.75370371341705
+LUA: Mouse lastPos: 0.87604165077209, -0.69629627466202
+LUA: Mouse change rel x and y: 0.41666626930237, -2.8703719377518
+LUA: Mouse moved!! : 0.89166665077209, -0.80370372533798
+LUA: Mouse lastPos: 0.88437497615814, -0.75370371341705
+LUA: Mouse change rel x and y: 0.36458373069763, -2.5000005960464
+LUA: Mouse moved!! : 0.89687502384186, -0.83703702688217
+LUA: Mouse lastPos: 0.89166665077209, -0.80370372533798
+LUA: Mouse change rel x and y: 0.26041865348816, -1.6666650772095
+LUA: Mouse moved!! : 0.90520834922791, -0.87592589855194
+LUA: Mouse lastPos: 0.89687502384186, -0.83703702688217
+LUA: Mouse change rel x and y: 0.41666626930237, -1.9444435834885
+LUA: Mouse moved!! : 0.91145831346512, -0.90555554628372
+LUA: Mouse lastPos: 0.90520834922791, -0.87592589855194
+LUA: Mouse change rel x and y: 0.31249821186066, -1.4814823865891
+LUA: Mouse moved!! : 0.91770833730698, -0.93148148059845
+LUA: Mouse lastPos: 0.91145831346512, -0.90555554628372
+LUA: Mouse change rel x and y: 0.3125011920929, -1.2962967157364
+LUA: Mouse moved!! : 0.92291665077209, -0.94999998807907
+LUA: Mouse lastPos: 0.91770833730698, -0.93148148059845
+LUA: Mouse change rel x and y: 0.26041567325592, -0.92592537403107
+LUA: Mouse moved!! : 0.92708331346512, -0.96481484174728
+LUA: Mouse lastPos: 0.92291665077209, -0.94999998807907
+LUA: Mouse change rel x and y: 0.20833313465118, -0.74074268341064
+LUA: Mouse moved!! : 0.92916667461395, -0.97037035226822
+LUA: Mouse lastPos: 0.92708331346512, -0.96481484174728
+LUA: Mouse change rel x and y: 0.10416805744171, -0.27777552604675
+LUA: Mouse moved!! : 0.93229168653488, -0.97037035226822
+LUA: Mouse lastPos: 0.92916667461395, -0.97037035226822
+LUA: Mouse change rel x and y: 0.15625059604645, 0.0
+LUA: Mouse moved!! : 0.93958336114883, -0.97037035226822
+LUA: Mouse lastPos: 0.93229168653488, -0.97037035226822
+LUA: Mouse change rel x and y: 0.36458373069763, 0.0
+LUA: Mouse moved!! : 0.94895833730698, -0.97222220897675
+LUA: Mouse lastPos: 0.93958336114883, -0.97037035226822
+LUA: Mouse change rel x and y: 0.4687488079071, -0.092592835426331
+LUA: Mouse moved!! : 0.95729166269302, -0.9759259223938
+LUA: Mouse lastPos: 0.94895833730698, -0.97222220897675
+LUA: Mouse change rel x and y: 0.41666626930237, -0.18518567085266
+LUA: Mouse moved!! : 0.96145832538605, -0.97962963581085
+LUA: Mouse lastPos: 0.95729166269302, -0.9759259223938
+LUA: Mouse change rel x and y: 0.20833313465118, -0.18518567085266
+LUA: Mouse moved!! : 0.96249997615814, -0.98148149251938
+LUA: Mouse lastPos: 0.96145832538605, -0.97962963581085
+LUA: Mouse change rel x and y: 0.052082538604736, -0.092592835426331
+LUA: Mouse moved!! : 0.96354168653488, -0.98518520593643
+LUA: Mouse lastPos: 0.96249997615814, -0.98148149251938
+LUA: Mouse change rel x and y: 0.052085518836975, -0.18518567085266
+LUA: Mouse moved!! : 0.96354168653488, -0.99259257316589
+LUA: Mouse lastPos: 0.96354168653488, -0.98518520593643
+LUA: Mouse change rel x and y: 0.0, -0.37036836147308
+LUA: Mouse moved!! : 0.96458333730698, -1.0
+LUA: Mouse lastPos: 0.96354168653488, -0.99259257316589
+LUA: Mouse change rel x and y: 0.052082538604736, -0.37037134170532
+LUA: Mouse moved!! : 0.96249997615814, -1.0
+LUA: Mouse lastPos: 0.96458333730698, -1.0
+LUA: Mouse change rel x and y: -0.10416805744171, 0.0
 Game quit successfully.

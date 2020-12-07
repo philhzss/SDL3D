@@ -166,7 +166,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Debug\resources\scripts\main.lua" />
-    <None Include="Debug\resources\scripts\test.lua" />
+    <None Include="..\resources\scripts\main.lua" />
+    <None Include="..\resources\scripts\test.lua" />
   </ItemGroup>
 </Project>
