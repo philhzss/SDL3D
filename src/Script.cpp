@@ -188,6 +188,8 @@ void Script::bindInterface(Game& game)
 		.addFunction("getResourceManager", &Game::getResourceManager)
 		.addFunction("getInputManager", &Game::getInputManager)
 		.addFunction("getEntityManager", &Game::getEntityManager)
+		.addFunction("getRelativeMouseMode", &Game::getRelativeMouseMode)
+		.addFunction("setRelativeMouseMode", &Game::setRelativeMouseMode)
 	.endClass();
 
 
@@ -391,6 +393,7 @@ void Script::bindInterface(Game& game)
 		.addFunction("registerKeys", &InputManager::registerKeys)
 		.addFunction("isKeyPressed", &InputManager::isKeyPressed)
 		.addFunction("getMousePos", &InputManager::getMousePos)
+		.addFunction("getMouseRelPos", &InputManager::getMouseRelPos)
 	.endClass();
 
 

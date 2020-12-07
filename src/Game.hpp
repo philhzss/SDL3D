@@ -57,6 +57,7 @@ private:
 	InputManager mInputManager;
 	EntityManager mEntityManager;
 
+
 	static std::string getBasePath();
 
 	bool checkCompability();
@@ -100,6 +101,9 @@ public:
 	ResourceManager& getResourceManager();
 	InputManager& getInputManager();
 	EntityManager& getEntityManager();
+
+	bool getRelativeMouseMode();
+	void setRelativeMouseMode(bool captureMouse);
 };
 
 #endif /* GAME_HPP */

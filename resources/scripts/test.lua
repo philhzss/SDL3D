@@ -39,7 +39,7 @@ local function foo()
 	resourceManager:findSound("music"):fadeIn(10, -1)
 	
 	inputManager:registerKeys({KeyCode.UP, KeyCode.DOWN, KeyCode.LEFT, KeyCode.RIGHT,
-		KeyCode.w, KeyCode.a, KeyCode.s, KeyCode.d, KeyCode.SPACE, KeyCode.LSHIFT, KeyCode.LCTRL, KeyCode.m})
+		KeyCode.w, KeyCode.a, KeyCode.s, KeyCode.d, KeyCode.SPACE, KeyCode.LSHIFT, KeyCode.LCTRL, KeyCode.m, KeyCode.o})
 	
 	camera:setDirection(Vec4(3, 0.0, 0.0, 0.0))
 	

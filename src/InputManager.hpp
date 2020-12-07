@@ -48,7 +48,9 @@ public:
 	void initMousePos();
 	bool isKeyPressed(int sdlKey);
 	glm::vec2 mMousePos;
+	glm::vec2 mMouseRelPos;
 	glm::vec2 getMousePos();
+	glm::vec2 getMouseRelPos();
 
 
 	void updateKeyByEvent(SDL_Event event);

@@ -32,6 +32,8 @@ int main(int argc, char **argv)
 
 	Game game;
 
+	SDL_GetRelativeMouseMode();
+
 	game.init();
 	game.startMainLoop(); // Runs the game, returns when the game quits
 

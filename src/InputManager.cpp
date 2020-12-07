@@ -78,6 +78,12 @@ glm::vec2 InputManager::getMousePos()
 	return mMousePos;
 }
 
+glm::vec2 InputManager::getMouseRelPos()
+{
+	// Utils::LOGPRINT("getMouseRelPos() result: " + std::to_string(mMousePos.x) + ", " + std::to_string(mMousePos.y));
+	return mMouseRelPos;
+}
+
 // Call each frame! Takes an event, and checks and updates keys.
 // One event can only talk about one key, so iterate through the SDL events and call this each time
 void InputManager::updateKeyByEvent(SDL_Event event)
@@ -98,12 +104,11 @@ void InputManager::updateMouseMovement(SDL_Event event)
 {
 	if (event.type == SDL_MOUSEMOTION) // Make sure this is a mouse event
 	{
-		// Carl would like me to log it like this, trying to figure out a way:
-		// mousePosX = (mousePosX / getSize().x * 2) - 1;
-
 		mMouseMotionEvent = event.motion; // Update the actual class-level mouse motion event with the new event!
 		
 		mMousePos.x = mMouseMotionEvent.x;
 		mMousePos.y = mMouseMotionEvent.y;
+		mMouseRelPos.x = mMouseMotionEvent.xrel;
+		mMouseRelPos.y = mMouseMotionEvent.yrel;
 	}
 }

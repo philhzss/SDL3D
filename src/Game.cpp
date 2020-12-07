@@ -535,3 +535,15 @@ EntityManager& Game::getEntityManager()
 {
 	return mEntityManager;
 }
+
+bool Game::getRelativeMouseMode()
+{
+	bool result = (SDL_GetRelativeMouseMode() == SDL_TRUE) ? true : false;
+	return result;
+}
+
+void Game::setRelativeMouseMode(bool captureMouse)
+{
+	SDL_bool setting = (captureMouse) ? SDL_TRUE : SDL_FALSE;
+	SDL_SetRelativeMouseMode(setting);
+}
