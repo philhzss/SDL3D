@@ -217,11 +217,16 @@ void Game::doEvents()
 	SDL_Event event;
 	while(SDL_PollEvent(&event))
 	{
+		// Utils::LOGPRINT(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Start of event check");
+
 		mInputManager.updateKeyByEvent(event);
 		mInputManager.updateMouseMovement(event);
+		
 
 		if(event.type == SDL_QUIT)
 			quit();
+
+		// Utils::LOGPRINT("//////////////////////////////////////////////////////End of event check");
 	}
 }
 
@@ -416,7 +421,8 @@ bool Game::init()
 		Utils::CRASH("System not compatible, cancelling init.");
 		return false;
 	}
-	
+
+	mInputManager.initMousePos();
 	setupGraphics();
 	checkForErrors();
 
@@ -528,4 +534,16 @@ InputManager& Game::getInputManager()
 EntityManager& Game::getEntityManager()
 {
 	return mEntityManager;
+}
+
+bool Game::getRelativeMouseMode()
+{
+	bool result = (SDL_GetRelativeMouseMode() == SDL_TRUE) ? true : false;
+	return result;
+}
+
+void Game::setRelativeMouseMode(bool captureMouse)
+{
+	SDL_bool setting = (captureMouse) ? SDL_TRUE : SDL_FALSE;
+	SDL_SetRelativeMouseMode(setting);
 }

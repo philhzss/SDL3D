@@ -5,8 +5,8 @@ M.lastMonkey = nil
 
 local function foo()
 	local game = getGame()
-	game:setName("Testing 123!")
-	game:setSize(IVec2(1024, 600))
+	game:setName("Phil mouse test")
+	game:setSize(IVec2(1920, 1080))
 	game:setMaxFramesPerSecond(60)
 	game:reCenterMainWindow()
 	
@@ -38,6 +38,7 @@ local function foo()
 	
 	resourceManager:findSound("music"):fadeIn(10, -1)
 	
+
 	inputManager:registerKeys({KeyCode.UP, KeyCode.DOWN, KeyCode.LEFT, KeyCode.RIGHT, KeyCode.LSHIFT, KeyCode.RSHIFT, KeyCode.LCTRL, KeyCode.RCTRL, KeyCode.SPACE, KeyCode.BACKSPACE, KeyCode.a, KeyCode.b, KeyCode.c, KeyCode.d, KeyCode.e, KeyCode.f, KeyCode.g, KeyCode.h, KeyCode.i, KeyCode.j, KeyCode.k, KeyCode.l, KeyCode.m, KeyCode.n, KeyCode.o, KeyCode.p, KeyCode.q, KeyCode.r, KeyCode.s, KeyCode.t, KeyCode.u, KeyCode.v, KeyCode.w, KeyCode.x, KeyCode.y, KeyCode.z})
 	
 	camera:setDirection(Vec4(3, 0.0, 0.0, 0.0))

@@ -51,15 +51,12 @@ void InputManager::registerKeys(const keyVector& keys)
 		registerKey(key);
 }
 
-void InputManager::getMousePosition()
+void InputManager::initMousePos()
 {
-	mMouseX = mMouseMotionEvent.x;
-	mMouseY = mMouseMotionEvent.y;
-	/*
-	Utils::LOGPRINT("Mouse was captured");
-	Utils::LOGPRINT(std::to_string(mMouseX));
-	Utils::LOGPRINT(std::to_string(mMouseY));
-	*/
+	Utils::LOGPRINT("Mouse pos is " + std::to_string(mMouseMotionEvent.x) + ", " + std::to_string(mMouseMotionEvent.y));
+	// For some reason the default values (before mouse is moved when the app is launched) are a huge negative number
+	// mMouseMotionEvent.x = 0;
+	// mMouseMotionEvent.y = 0;
 }
 
 bool InputManager::isKeyPressed(int sdlKey)
@@ -74,6 +71,19 @@ bool InputManager::isKeyPressed(int sdlKey)
 
 	return got->second;
 }
+
+glm::vec2 InputManager::getMousePos()
+{
+	// Utils::LOGPRINT("getMousePos() result: " + std::to_string(mMousePos.x) + ", " + std::to_string(mMousePos.y));
+	return mMousePos;
+}
+
+glm::vec2 InputManager::getMouseRelPos()
+{
+	// Utils::LOGPRINT("getMouseRelPos() result: " + std::to_string(mMousePos.x) + ", " + std::to_string(mMousePos.y));
+	return mMouseRelPos;
+}
+
 
 // Call each frame! Takes an event, and checks and updates keys.
 // One event can only talk about one key, so iterate through the SDL events and call this each time
@@ -95,11 +105,11 @@ void InputManager::updateMouseMovement(SDL_Event event)
 {
 	if (event.type == SDL_MOUSEMOTION) // Make sure this is a mouse event
 	{
-		// Carl would like me to report it like this, trying to figure out a way:
-		// mousePosX = (mousePosX / getSize().x * 2) - 1;
-		SDL_MouseMotionEvent mouseEvent = event.motion;
-		int mouseEventX = mouseEvent.x;
-		int mouseEventY = mouseEvent.y;
-		Utils::LOGPRINT("Mouse was captured and is now: " + std::to_string(mouseEventX) + ", " + std::to_string(mouseEventY));
+		mMouseMotionEvent = event.motion; // Update the actual class-level mouse motion event with the new event!
+		
+		mMousePos.x = mMouseMotionEvent.x;
+		mMousePos.y = mMouseMotionEvent.y;
+		mMouseRelPos.x = mMouseMotionEvent.xrel;
+		mMouseRelPos.y = mMouseMotionEvent.yrel;
 	}
 }

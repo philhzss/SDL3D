@@ -25,6 +25,7 @@
 #include <map>
 #include <cstddef> // For std::size_t
 #include <vector>
+#include <glm/glm.hpp>
 
 class InputManager
 {
@@ -34,21 +35,26 @@ private:
 
 	sdlKeyMap mKeys;
 	SDL_MouseMotionEvent mMouseMotionEvent;
-	int mMouseX;
-	int mMouseY;
+
 
 public:
 	using keyVector = std::vector<int>;
+	
 
 	InputManager();
 	~InputManager();
 	void registerKey(int sdlKey);
 	void registerKeys(const keyVector& keys);
-	void getMousePosition();
+	void initMousePos();
 	bool isKeyPressed(int sdlKey);
+	glm::vec2 mMousePos;
+	glm::vec2 mMouseRelPos;
+	glm::vec2 getMousePos();
+	glm::vec2 getMouseRelPos();
+
 
 	void updateKeyByEvent(SDL_Event event);
-	void updateMouseMovement(SDL_Event event);
+	void updateMouseMovement(SDL_Event event); // Returns 1 if mouse moved 
 };
 
 #endif /* INPUT_MANAGER_HPP */

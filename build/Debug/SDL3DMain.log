@@ -1,1 +1,26 @@
-﻿  SDL3DMain.vcxproj -> C:\Users\Phil\source\repos\Phil-SDL3D\build\Debug\SDL3DMain.exe
+﻿  Game.cpp
+  InputManager.cpp
+C:\Users\Phil\source\repos\Phil-SDL3D\src\InputManager.cpp(110,34): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Phil\source\repos\Phil-SDL3D\src\InputManager.cpp(111,34): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Phil\source\repos\Phil-SDL3D\src\InputManager.cpp(112,37): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Phil\source\repos\Phil-SDL3D\src\InputManager.cpp(113,37): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SDL3D.cpp
+  Script.cpp
+  Generating Code...
+  SDL3DMain.vcxproj -> C:\Users\Phil\source\repos\Phil-SDL3D\build\Debug\SDL3DMain.exe
