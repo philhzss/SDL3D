@@ -10,6 +10,7 @@ local musicButtonPressedLastFrame = false
 local mouseCaptureButtonPressedLastFrame = false
 
 local lastMousePos = Vec2(-1, -1)
+local lastRelMousePos = Vec2(-1, -1)
 
 function gameInit()
 	--lastMousePos.x = (lastMousePos.x / game:getSize().x * 2) - 1
@@ -107,31 +108,36 @@ function doControls()
 
 	-- View controls
 	local currentMousePos = inputManager:getMousePos()
+	local currentMouseRelPos = inputManager:getMouseRelPos()	
+
 	
+	-- Update the mouse pos to be between -1 and +1
 	currentMousePos.x = (currentMousePos.x / game:getSize().x * 2) - 1
 	currentMousePos.y = (currentMousePos.y / game:getSize().y * 2) - 1
+	
 	--Utils.logprint("LUA: lastMousePos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
-  	--Utils.logprint("LUA: getMousePos: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
+  	Utils.logprint("LUA: currentMousePos: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
+	Utils.logprint("LUA: currentMouseRelPos: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
 
 	if(game:getRelativeMouseMode()) then
-		--local currentMouseRelPos = inputManager:getMouseRelPos()	
-		--currentMousePos.x = (currentMousePos.x / game:getSize().x * 2) - 1
-		--currentMousePos.y = (currentMousePos.y / game:getSize().y * 2) - 1	
-	
-		if((lastMousePos.x ~= currentMousePos.x) or (lastMousePos.y ~= currentMousePos.y)) then
-  			Utils.logprint("LUA: Mouse moved!! : " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
-			Utils.logprint("LUA: Mouse lastPos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
+		if((lastRelMousePos.x ~= currentMouseRelPos.x) or (lastRelMousePos.y ~= currentMouseRelPos.y)) then
+  			Utils.logprint("LUA: Mouse moved!! Relative pos diff: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
+			--Utils.logprint("LUA: Mouse lastPos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
 		
 			local cameraDirection = camera:getDirection() -- Here we make sure we have the latest direction
+
 			Utils.logprint("LUA: CameraDirection BEFORE: " .. tostring(camera:getDirection().x) .. ", " .. tostring(camera:getDirection().y) .. ", " .. tostring(camera:getDirection().z))
 
-			-- Calculate the difference between now and what it was
-			--local relX = (currentMousePos.x - lastMousePos.x)/angleIncrementation
-			--local relY = (currentMousePos.y - lastMousePos.y)/angleIncrementation
-			--Utils.logprint("LUA: Mouse change rel x and y: " .. tostring(relX) .. ", " .. tostring(relY))
+			local relDifVect = Vec4(0, -currentMouseRelPos.y/50, currentMouseRelPos.x/50, 0)
 
+			local newVect = Vec4(0,0,0,0) -- init?
+			newVect.x = relDifVect.x + cameraDirection.x
+			newVect.y = relDifVect.y + cameraDirection.y
+			newVect.z = relDifVect.z + cameraDirection.z
+			newVect.w = relDifVect.w + cameraDirection.w -- its 0 but who cares
 
-			camera:setDirection(Vec4(math.cos(currentMousePos.x), -math.sin(currentMousePos.y), math.sin(currentMousePos.x) + math.cos(currentMousePos.x), 0)) 
+			camera:setDirection(newVect)
+
 			Utils.logprint("LUA: CameraDirection AFTER: " .. tostring(camera:getDirection().x) .. ", " .. tostring(camera:getDirection().y) .. ", " .. tostring(camera:getDirection().z))
 	
 		else
@@ -141,6 +147,9 @@ function doControls()
 	
 		lastMousePos.x = currentMousePos.x
 		lastMousePos.y = currentMousePos.y
+		lastRelMousePos.x = currentMouseRelPos.x
+		lastRelMousePos.y = currentMouseRelPos.y
+		Utils.logprint("")
 	end
 
 
@@ -186,6 +195,10 @@ function doControls()
 		
 		camera:setDirection(Vec4(newX, cameraDirection.y, newZ, 0)) -- 0 for vector
 	end
+	Utils.logprint("LUA: CameraDirection check: " .. tostring(camera:getDirection().x) .. ", " .. tostring(camera:getDirection().y) .. ", " .. tostring(camera:getDirection().z))
+	Utils.logprint("")
+	Utils.logprint("")
+	Utils.logprint("")
 	
 	-- Up/down controls
 	if(inputManager:isKeyPressed(KeyCode.SPACE)) then
@@ -217,13 +230,14 @@ function doControls()
 		if(mouseCaptureButtonPressedLastFrame == false) then
 			mouseCaptureButtonPressedLastFrame = true
 
-			Utils.logprint("LUA: O key pressed")
+			resourceManager:findSound("soundEffect"):play()
+
 			if(game:getRelativeMouseMode()) then
-				Utils.logprint("LUA: Mouse is captured, releasing")
 				game:setRelativeMouseMode(false)
+				Utils.logprint("LUA: Mouse released!!")
 			else
-				Utils.logprint("LUA: Mouse is NOT captured, capturing")
 				game:setRelativeMouseMode(true)
+				Utils.logprint("LUA: Mouse captured")
 			end
 		end
 	else

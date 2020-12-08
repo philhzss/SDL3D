@@ -84,6 +84,7 @@ glm::vec2 InputManager::getMouseRelPos()
 	return mMouseRelPos;
 }
 
+
 // Call each frame! Takes an event, and checks and updates keys.
 // One event can only talk about one key, so iterate through the SDL events and call this each time
 void InputManager::updateKeyByEvent(SDL_Event event)
