@@ -45,7 +45,6 @@ public:
 	~InputManager();
 	void registerKey(int sdlKey);
 	void registerKeys(const keyVector& keys);
-	void initMousePos();
 	bool isKeyPressed(int sdlKey);
 	glm::vec2 mMousePos;
 	glm::vec2 mMouseRelPos;

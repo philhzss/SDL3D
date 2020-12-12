@@ -422,7 +422,6 @@ bool Game::init()
 		return false;
 	}
 
-	mInputManager.initMousePos();
 	setupGraphics();
 	checkForErrors();
 

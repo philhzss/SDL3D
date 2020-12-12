@@ -51,13 +51,6 @@ void InputManager::registerKeys(const keyVector& keys)
 		registerKey(key);
 }
 
-void InputManager::initMousePos()
-{
-	Utils::LOGPRINT("Mouse pos is " + std::to_string(mMouseMotionEvent.x) + ", " + std::to_string(mMouseMotionEvent.y));
-	// For some reason the default values (before mouse is moved when the app is launched) are a huge negative number
-	// mMouseMotionEvent.x = 0;
-	// mMouseMotionEvent.y = 0;
-}
 
 bool InputManager::isKeyPressed(int sdlKey)
 {
@@ -74,13 +67,11 @@ bool InputManager::isKeyPressed(int sdlKey)
 
 glm::vec2 InputManager::getMousePos()
 {
-	// Utils::LOGPRINT("getMousePos() result: " + std::to_string(mMousePos.x) + ", " + std::to_string(mMousePos.y));
 	return mMousePos;
 }
 
 glm::vec2 InputManager::getMouseRelPos()
 {
-	// Utils::LOGPRINT("getMouseRelPos() result: " + std::to_string(mMousePos.x) + ", " + std::to_string(mMousePos.y));
 	return mMouseRelPos;
 }
 
