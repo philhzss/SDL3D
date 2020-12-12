@@ -11,12 +11,18 @@ local mouseCaptureButtonPressedLastFrame = false
 
 local lastMousePos = Vec2(-1, -1)
 local lastRelMousePos = Vec2(-1, -1)
+local fakeGridMouseCoords = Vec2(0,0)
+
 
 function gameInit()
 	--lastMousePos.x = (lastMousePos.x / game:getSize().x * 2) - 1
 	--lastMousePos.y = (lastMousePos.y / game:getSize().y * 2) - 1
 	test.foo()
 	Utils.logprint("Hello, init from lua!")
+	Utils.logprint("Resolution is " .. tostring(game:getSize().x) .. " x " .. tostring(game:getSize().y))
+	-- Initial coords for when you capture mouse. Here it is set to be aligned(ish) with monkeys
+	fakeGridMouseCoords.x = game:getSize().x/2 - (game:getSize().x)/2.74 -- /2.74 aligns with monkeys
+	fakeGridMouseCoords.y = game:getSize().y/2
 end
 
 function gameStep()
@@ -50,6 +56,7 @@ end
 function doControls()
 	local speed = 0.4
 	local angleIncrementation = 0.02
+	local mouseSpeed = 3 -- set mouse speed multiplier here
 	
 	local camera = entityManager:getGameCamera()
 	local cameraPhysicsBody = camera:getPhysicsBody()
@@ -108,7 +115,8 @@ function doControls()
 
 	-- View controls
 	local currentMousePos = inputManager:getMousePos()
-	local currentMouseRelPos = inputManager:getMouseRelPos()	
+	local currentMouseRelPos = inputManager:getMouseRelPos()
+	currentMouseRelPos = Vec2.scalarMul(currentMouseRelPos, mouseSpeed)
 
 	
 	-- Update the mouse pos to be between -1 and +1
@@ -116,40 +124,50 @@ function doControls()
 	currentMousePos.y = (currentMousePos.y / game:getSize().y * 2) - 1
 	
 	--Utils.logprint("LUA: lastMousePos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
-  	Utils.logprint("LUA: currentMousePos: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
-	Utils.logprint("LUA: currentMouseRelPos: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
+  	--Utils.logprint("LUA: currentMousePos: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
+	--Utils.logprint("LUA: currentMouseRelPos: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
 
-	if(game:getRelativeMouseMode()) then
+
+	
+	if(game:getRelativeMouseMode() == true) then
 		if((lastRelMousePos.x ~= currentMouseRelPos.x) or (lastRelMousePos.y ~= currentMouseRelPos.y)) then
-  			Utils.logprint("LUA: Mouse moved!! Relative pos diff: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
+  			Utils.logprint("LUA: currentMouseRelPos: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
+			Utils.logprint("LUA: Mouse moved!! Relative pos diff: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
 			--Utils.logprint("LUA: Mouse lastPos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
 		
 			local cameraDirection = camera:getDirection() -- Here we make sure we have the latest direction
 
 			Utils.logprint("LUA: CameraDirection BEFORE: " .. tostring(camera:getDirection().x) .. ", " .. tostring(camera:getDirection().y) .. ", " .. tostring(camera:getDirection().z))
+			Utils.logprint("LUA: fakeGrid BEFORE change: " .. tostring(fakeGridMouseCoords.x) .. ", " .. tostring(fakeGridMouseCoords.y))
 
-			local relDifVect = Vec4(0, -currentMouseRelPos.y/50, currentMouseRelPos.x/50, 0)
-
-			local newVect = Vec4(0,0,0,0) -- init?
-			newVect.x = relDifVect.x + cameraDirection.x
-			newVect.y = relDifVect.y + cameraDirection.y
-			newVect.z = relDifVect.z + cameraDirection.z
-			newVect.w = relDifVect.w + cameraDirection.w -- its 0 but who cares
-
-			camera:setDirection(newVect)
+			-- Update fakeGrid to new coords based on how much mouse moved
+			fakeGridMouseCoords.x = (fakeGridMouseCoords.x + currentMouseRelPos.x)
+			fakeGridMouseCoords.y = (fakeGridMouseCoords.y + currentMouseRelPos.y)
+			Utils.logprint("LUA: fakeGrid AFTER change: " .. tostring(fakeGridMouseCoords.x) .. ", " .. tostring(fakeGridMouseCoords.y))
+			
+			-- fakeGrid must be between -1 and +1 for the setDirection function
+			local fakeGridCorrected = Vec2(0,0)
+			fakeGridCorrected.x = (fakeGridMouseCoords.x / game:getSize().x * 2) - 1
+			fakeGridCorrected.y = (fakeGridMouseCoords.y / game:getSize().y * 2) - 1
+			Utils.logprint("LUA: fakeGrid CORRECTED: " .. tostring(fakeGridCorrected.x) .. ", " .. tostring(fakeGridCorrected.y))
+		
+			camera:setDirection(Vec4(math.cos(fakeGridCorrected.x), -math.sin(fakeGridCorrected.y), math.sin(fakeGridCorrected.x) + math.cos(fakeGridCorrected.x), 0)) 
+			
+			-- Absolute Mode:
+			--camera:setDirection(Vec4(math.cos(currentMousePos.x), -math.sin(currentMousePos.y), math.sin(currentMousePos.x) + math.cos(currentMousePos.x), 0)) 
 
 			Utils.logprint("LUA: CameraDirection AFTER: " .. tostring(camera:getDirection().x) .. ", " .. tostring(camera:getDirection().y) .. ", " .. tostring(camera:getDirection().z))
 	
-		else
-		   --Utils.logprint("LUA: Mouse did not move: " .. tostring(currentMousePos.x) .. ", " .. tostring(currentMousePos.y))
-		   --Utils.logprint("LUA: Mouse lastPos: " .. tostring(lastMousePos.x) .. ", " .. tostring(lastMousePos.y))
 		end
-	
 		lastMousePos.x = currentMousePos.x
 		lastMousePos.y = currentMousePos.y
 		lastRelMousePos.x = currentMouseRelPos.x
 		lastRelMousePos.y = currentMouseRelPos.y
+		Utils.logprint("LUA: currentMouseRelPos: " .. tostring(currentMouseRelPos.x) .. ", " .. tostring(currentMouseRelPos.y))
 		Utils.logprint("")
+	else
+		--fakeGridMouseCoords.x = game:getSize().x/2 -- reset to midpoint if mouse not captured
+		--fakeGridMouseCoords.y = game:getSize().y/2 -- reset to midpoint if mouse not captured
 	end
 
 
@@ -195,6 +213,8 @@ function doControls()
 		
 		camera:setDirection(Vec4(newX, cameraDirection.y, newZ, 0)) -- 0 for vector
 	end
+	
+	
 	Utils.logprint("LUA: CameraDirection check: " .. tostring(camera:getDirection().x) .. ", " .. tostring(camera:getDirection().y) .. ", " .. tostring(camera:getDirection().z))
 	Utils.logprint("")
 	Utils.logprint("")
